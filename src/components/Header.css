@@ -1,0 +1,78 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  padding: 2.4rem 4.8rem;
+}
+
+.header-logo {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 48px;
+  color: #333;
+}
+
+.section-link,
+.section-link:visited {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.section-link.blue:hover,
+.section-link.blue:active {
+  text-decoration: none;
+  color: #1864ab;
+}
+
+.section-link.green:hover,
+.section-link.green:active {
+  text-decoration: none;
+  color: #2b8a3e;
+}
+
+.nav-list--item.blue {
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nav-list--item.green {
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nav-item.blue {
+  background-image: linear-gradient(to right, #1c7ed6, #1864ab);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.nav-item.green {
+  background-image: linear-gradient(to right, #37b24d, #2b8a3e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.theme {
+  color: #999;
+}

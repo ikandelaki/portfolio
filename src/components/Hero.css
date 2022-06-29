@@ -1,0 +1,110 @@
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #222;
+}
+
+.section-hero.blue {
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #fff, #d0ebff);
+}
+
+.section-hero.green {
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #fff, #d3f9d8);
+}
+
+.section-hero h1 {
+  font-size: 5.2rem;
+  font-weight: 600;
+}
+
+.section-hero h2 {
+  font-size: 3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.section-hero h3 {
+  font-size: 3.6rem;
+}
+
+.name.blue {
+  background-color: #1c7ed6;
+  background-image: linear-gradient(to right, #1864ab, #1c7ed6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.name.green {
+  background-color: #37b24d;
+  background-image: linear-gradient(to right, #2b8a3e, #37b24d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.about.blue::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c7ed6;
+  background-image: linear-gradient(to right, #1864ab, #1c7ed6);
+  transform: skewX(-22deg);
+  z-index: -1;
+}
+
+.about.green::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #37b24d;
+  background-image: linear-gradient(to right, #37b24d, #2b8a3e);
+  transform: skewX(-22deg);
+  z-index: -1;
+}
+
+.about {
+  display: inline-block;
+  margin-left: 1rem;
+  padding: 0.2rem 0.8rem;
+  position: relative;
+  z-index: 1;
+  color: #e7f5ff;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.about--projects {
+  margin-left: 0;
+}
+
+.about.blue:hover {
+  color: #a5d8ff;
+  cursor: pointer;
+  margin: 0 1.2rem;
+}
+
+.about.green:hover {
+  color: #b2f2bb;
+  cursor: pointer;
+  margin: 0 1.2rem;
+}
