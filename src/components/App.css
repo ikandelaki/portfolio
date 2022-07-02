@@ -3,6 +3,11 @@
 - Font size (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
+5.2rem
+3.6rem
+3rem
+2rem
+
 - Font weights:
 Default: 400
 Medium: 500
@@ -22,10 +27,20 @@ Paragraph default: 1.6
 
 --- 02 COLORS
 - Primary: 
+blue - #d0ebff, #a5d8ff, #1c7ed6, #1864ab;
+green - #d3f9d8, #b2f2bb, #37b24d, #2b8a3e;
 - Tints: 
 - Shades: 
 - Accents:
 - Greys:
+#222,
+#333,
+#999,
+#ccc
+
+- Gradients:
+blue - background-image: linear-gradient(to right, #1c7ed6, #1864ab);
+green - background-image: linear-gradient(to right, #37b24d, #2b8a3e);
 
 --- 05 SHADOWS
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);

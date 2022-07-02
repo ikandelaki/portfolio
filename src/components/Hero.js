@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import "./Hero.css";
 
 const Hero = (props) => {
@@ -9,8 +10,16 @@ const Hero = (props) => {
       </h1>
       <h2>A web developer</h2>
       <h3>
-        Learn more about<span className={`about ${props.theme}`}>Me</span>/
-        <span className={`about about--projects ${props.theme}`}>Projects</span>
+        Learn more about
+        <HashLink to="#about">
+          <span className={`about ${props.theme}`}>Me</span>
+        </HashLink>
+        /
+        <HashLink to="#projects">
+          <span className={`about about--projects ${props.theme}`}>
+            Projects
+          </span>
+        </HashLink>
       </h3>
     </div>
   );

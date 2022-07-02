@@ -10,7 +10,7 @@ const Header = (props) => {
         <ul className="nav-list">
           <li className={`nav-list--item ${props.theme}`}>
             <HashLink
-              to="#"
+              to="#about"
               className={`section-link section-link ${props.theme}`}
             >
               <span className={`nav-item ${props.theme}`}>01.</span> About
@@ -18,7 +18,7 @@ const Header = (props) => {
           </li>
           <li className={`nav-list--item ${props.theme}`}>
             <HashLink
-              to="#"
+              to="#projects"
               className={`section-link section-link ${props.theme}`}
             >
               <span className={`nav-item ${props.theme}`}>02.</span> Projects
