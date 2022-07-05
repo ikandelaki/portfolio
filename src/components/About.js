@@ -44,9 +44,9 @@ const About = (props) => {
               </h3>
               <p>
                 I built this project with React, to test my skills and gain even
-                more practice. I used react-router-dom and
-                react-router-hash-link for navigation within the page, as well
-                as state to change the color of the theme. <br />
+                more practice. I used react-scroll for navigation within the
+                page, as well as state to make some smooth animations within the
+                page. <br />
                 For styling I used plain css. I styled everything by hand
                 without using any of the third-party libraries. I used photoshop
                 to edit and alter the photos to make them fit the portfolio

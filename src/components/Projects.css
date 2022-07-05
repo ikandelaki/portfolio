@@ -1,9 +1,9 @@
 .projects-container {
   max-width: 120rem;
-  padding: 0 1.2rem;
+  padding: 0 1.2rem 4.8rem;
   margin: 4.8rem auto;
 }
-
+/* 
 .section-projects.blue {
   background-color: #fff;
   background-image: linear-gradient(to bottom, #fff, #d0ebff);
@@ -12,7 +12,7 @@
 .section-projects.green {
   background-color: #fff;
   background-image: linear-gradient(to bottom, #fff, #d3f9d8);
-}
+} */
 
 .projects-container--grid {
   margin-top: 2.4rem;

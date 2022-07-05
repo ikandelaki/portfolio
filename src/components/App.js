@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 import Header from "./Header";
@@ -34,15 +33,18 @@ class App extends React.Component {
     ],
   };
 
+  changeTheme = (color) => {
+    this.setState({ theme: color });
+  };
+
   render() {
     return (
       <div>
-        <BrowserRouter>
-          <Header theme={this.state.theme} />
-          <Hero theme={this.state.theme} />
-        </BrowserRouter>
+        <Header theme={this.state.theme} changeTheme={this.changeTheme} />
+        <Hero theme={this.state.theme} />
         <About theme={this.state.theme} />
         <Projects theme={this.state.theme} projects={this.state.projects} />
+        <Contact theme={this.state.theme} />
       </div>
     );
   }

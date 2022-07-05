@@ -18,14 +18,14 @@
 .project-card {
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.05);
   transition: all 0.3s;
   padding-bottom: 1.2rem;
 }
 
 .project-card:hover {
   cursor: pointer;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.08);
 }
 
 .project-card img {

@@ -1,0 +1,43 @@
+.section-contact {
+  background-color: #ddd;
+  padding: 4.8rem 0 9.6rem;
+  margin-top: 4.8rem;
+}
+
+.contact {
+  width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.contact .number {
+  color: #212529;
+}
+
+ion-icon {
+  font-size: 4.8rem;
+  color: #777;
+  transition: all 0.3s;
+}
+
+ion-icon:hover {
+  color: #444;
+}
+
+.contact-list {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-details {
+  margin-top: 3.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+
+  font-size: 1.8rem;
+  color: #777;
+}
