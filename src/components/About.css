@@ -74,3 +74,19 @@
 .flex-container {
   display: flex;
 }
+
+.portf-link {
+  text-decoration: none;
+  color: #888;
+  transition: all 0.3s;
+}
+
+.portf-link.blue:hover {
+  border-bottom: 1px solid #1c7ed6;
+  color: #1c7ed6;
+}
+
+.portf-link.green:hover {
+  border-bottom: 1px solid #37b24d;
+  color: #37b24d;
+}

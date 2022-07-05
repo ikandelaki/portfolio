@@ -53,7 +53,14 @@ const About = (props) => {
                 better. <br />
                 In the end, I wanted the webpage to look somewhat minimalistic,
                 with a nice, easy feel. I also tried to make them look good with
-                two of my favourite colors: Blue and Green.
+                two of my favourite colors: Blue and Green. <br />
+                <a
+                  href="https://github.com/ikandelaki/portfolio"
+                  target="_blank"
+                  className={`portf-link ${props.theme}`}
+                >
+                  See the source code
+                </a>
               </p>
             </div>
             <div>
