@@ -25,7 +25,14 @@ const About = (props) => {
                 technologies like redux, redux-thunk, react-router. I have a
                 good understanding of third-party APIs and a solid working
                 ground of web in general. However, I know that I have a lot to
-                learn and I am excited to pursue the rest of the journey.
+                learn and I am excited to pursue the rest of the journey. <br />
+                <a
+                  href="https://github.com/ikandelaki/"
+                  target="_blank"
+                  className={`portf-link ${props.theme}`}
+                >
+                  See github profile
+                </a>
               </p>
             </div>
             <div>

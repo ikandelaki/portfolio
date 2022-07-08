@@ -1,0 +1,136 @@
+/************************/
+/* BELOW 1344px (Smaller desktops) */
+/************************/
+@media (max-width: 84em) {
+  .about-description p {
+    font-size: 1.8rem;
+  }
+}
+
+/************************/
+/* BELOW 1200px (Landscape tablets) */
+/************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .projects-container--grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .project-container {
+    grid-template-columns: 1fr auto;
+  }
+
+  .contact-details-container {
+    max-width: 100%;
+  }
+}
+
+/************************/
+/* BELOW 944px (Tablets) */
+/************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.87);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+
+    transition: all 0.5s ease-in;
+  }
+  .nav-list li {
+    text-align: center;
+  }
+
+  .ph-list {
+    display: block;
+    margin-left: auto;
+    z-index: 9999;
+  }
+
+  .nav-list.open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+
+    transform: translateX(0%);
+  }
+
+  .dropdown {
+    position: relative;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+  }
+
+  .dropdown span {
+    text-align: center;
+  }
+
+  .about-description .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/************************/
+/* BELOW 704px (Smaller tablets) */
+/************************/
+@media (max-width: 44em) {
+  .flex-container img {
+    max-width: 50%;
+  }
+
+  .flex-container div:last-child {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/************************/
+/* BELOW 544px (Phones) */
+/************************/
+@media (max-width: 34em) {
+  .project-container {
+    grid-template-columns: 1fr;
+    row-gap: 1.2rem;
+    justify-items: center;
+  }
+
+  .projects-container--grid {
+    row-gap: 3.6rem;
+  }
+
+  .project-box {
+    flex-direction: column;
+  }
+
+  .project-description p {
+    max-width: 300px;
+  }
+
+  .section-hero h3 {
+    flex-direction: column;
+  }
+}

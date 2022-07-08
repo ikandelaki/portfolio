@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Helmet } from "react-helmet";
 
 import Header from "./Header";
 import Hero from "./Hero";
@@ -9,6 +10,8 @@ import Contact from "./Contact";
 
 import cardistry from "../images/cardistry.png";
 import countries from "../images/countries.png";
+
+import "./queries.css";
 
 class App extends React.Component {
   state = {
@@ -40,6 +43,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>&mdash; Portfolio</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+          <meta name="description" content="Personal portfolio" />
+        </Helmet>
         <Header theme={this.state.theme} changeTheme={this.changeTheme} />
         <Hero theme={this.state.theme} />
         <About theme={this.state.theme} />
