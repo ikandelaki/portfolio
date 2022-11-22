@@ -1,7 +1,6 @@
 import React from "react";
-import cardistry from "../images/cardistry.png";
 
-import "./Project.css";
+import "../styles/Project.css";
 
 class Project extends React.Component {
   state = { hover: false };
@@ -27,8 +26,12 @@ class Project extends React.Component {
             onMouseOut={this.removeHover}
           >
             <div className="project-img">
-              <a href={this.props.details.siteLink} target="_blank">
-                <img src={this.props.details.image} />
+              <a
+                href={this.props.details.siteLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={this.props.details.image} alt="project" />
               </a>
             </div>
             <h4 className="project-title">{this.props.details.title}</h4>
@@ -37,6 +40,7 @@ class Project extends React.Component {
                 href={this.props.details.siteLink}
                 className={`link--live ${this.props.theme}`}
                 target="_blank"
+                rel="noreferrer"
               >
                 See Live
               </a>
@@ -44,6 +48,7 @@ class Project extends React.Component {
                 href={this.props.details.sourceLink}
                 className={`link--source ${this.props.theme}`}
                 target="_blank"
+                rel="noreferrer"
               >
                 Source code
               </a>
@@ -55,7 +60,9 @@ class Project extends React.Component {
             this.state.hover ? "hover" : ""
           }`}
         >
-          <p>{this.props.details.description}</p>
+          <p onMouseOver={this.addHover} onMouseOut={this.removeHover}>
+            {this.props.details.description}
+          </p>
         </div>
       </div>
     );

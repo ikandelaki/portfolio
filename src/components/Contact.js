@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "../styles/Contact.css";
 
 const Contact = (props) => {
   return (
@@ -12,6 +12,7 @@ const Contact = (props) => {
             <a
               href="https://www.instagram.com/ikandelaki_/"
               target="_blank"
+              rel="noreferrer"
               className="contact-link"
             >
               <ion-icon name="logo-instagram"></ion-icon>
@@ -19,6 +20,7 @@ const Contact = (props) => {
             <a
               href="https://www.facebook.com/ikandelakii"
               target="_blank"
+              rel="noreferrer"
               className="contact-link"
             >
               <ion-icon name="logo-facebook"></ion-icon>
@@ -26,6 +28,7 @@ const Contact = (props) => {
             <a
               href="mailto:iraklikandelaki2@gmail.com"
               target="_blank"
+              rel="noreferrer"
               className="contact-link"
             >
               <ion-icon name="mail-outline"></ion-icon>

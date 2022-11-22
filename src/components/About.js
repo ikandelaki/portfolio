@@ -1,7 +1,5 @@
 import React from "react";
-import "./About.css";
-import skills from "../images/skills.png";
-import reactCss from "../images/react-css.png";
+import "../styles/About.css";
 
 const About = (props) => {
   return (
@@ -29,6 +27,7 @@ const About = (props) => {
                 <a
                   href="https://github.com/ikandelaki/"
                   target="_blank"
+                  rel="noreferrer"
                   className={`portf-link ${props.theme}`}
                 >
                   See github profile
@@ -36,7 +35,7 @@ const About = (props) => {
               </p>
             </div>
             <div>
-              <img src={skills} alt="different web skills" />
+              <img src="images/skills.png" alt="different web skills" />
             </div>
           </div>
         </div>
@@ -64,6 +63,7 @@ const About = (props) => {
                 <a
                   href="https://github.com/ikandelaki/portfolio"
                   target="_blank"
+                  rel="noreferrer"
                   className={`portf-link ${props.theme}`}
                 >
                   See the source code
@@ -71,7 +71,7 @@ const About = (props) => {
               </p>
             </div>
             <div>
-              <img src={reactCss} alt="built with react css" />
+              <img src="images/react-css.png" alt="built with react css" />
             </div>
           </div>
         </div>

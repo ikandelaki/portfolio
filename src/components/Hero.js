@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { Link } from "react-scroll";
-import { HashLink } from "react-router-hash-link";
-import "./Hero.css";
+import "../styles/Hero.css";
 
 const Hero = (props) => {
   const heroRef = useRef(null);

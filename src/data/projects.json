@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "image": "images/cardistry.png",
+      "title": "Cardistry",
+      "description": "This is the first webpage I've ever built and published. It is about the astonishing art of cardistry which I am really fond of. It was built with plain HTML, CSS and JS. I applied some design principles and tried to make it look appealing. I also used JavaScript to make use of sticky navigation, as well as smooth scrolling and responsive menu bar.",
+      "siteLink": "https://cardistry-irakli.netlify.app/",
+      "sourceLink": "https://github.com/ikandelaki/cardistry-project",
+      "type": "personal"
+    },
+    {
+      "image": "images/countries.png",
+      "title": "Countries",
+      "description": "I built this project with plain JavaScript. I used the RESTCountries api to fetch data about the countries and then displayed them with DOM manipulation.",
+      "siteLink": "https://countries-irakli.netlify.app/",
+      "sourceLink": "https://github.com/ikandelaki/countries-project",
+      "type": "personal"
+    },
+    {
+      "image": "images/countries.png",
+      "title": "Countries",
+      "description": "I built this project with plain JavaScript. I used the RESTCountries api to fetch data about the countries and then displayed them with DOM manipulation.",
+      "siteLink": "https://countries-irakli.netlify.app/",
+      "sourceLink": "https://github.com/ikandelaki/countries-project",
+      "type": "personal"
+    }
+  ],
+  [
+    {
+      "image": "images/insurance.png",
+      "title": "Insurance",
+      "description": "I built this webpage to practice for the midterm exam of \"Principles of Insurance\" subject for my university. I used React to build it and implemented state management, storing data in json file and organizing all my information that way. The project turned out to be too enjoyable, and I smashed the exam",
+      "siteLink": "https://insurancequiz.netlify.app/",
+      "sourceLink": "https://github.com/ikandelaki/project-quiz",
+      "type": "real-world"
+    }
+  ]
+]

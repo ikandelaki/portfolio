@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import { CSSTransition } from "react-transition-group";
-import "./Header.css";
+import "../styles/Header.css";
 
 // Creating dropdown menu for theme selection
 const DropdownMenu = (props) => {
