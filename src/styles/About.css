@@ -37,12 +37,25 @@
   color: #1864ab;
 }
 
-.about-description p {
+.about-me-description {
   font-size: 2rem;
   padding: 0 4.8rem;
   margin-top: 1.2rem;
   color: #333;
   line-height: 1.5;
+}
+
+.about-me-description a {
+  display: inline-block;
+  margin-top: 0.8rem;
+}
+
+.about-me-description h4 {
+  margin-top: 1.2rem;
+}
+
+.job-title {
+  color: #888;
 }
 
 .about-description.blue span {
