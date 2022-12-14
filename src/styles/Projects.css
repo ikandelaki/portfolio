@@ -9,7 +9,7 @@
   margin-top: 2.4rem;
   padding: 0 1.2rem 4.8rem;
   display: grid;
-  row-gap: 1.6rem;
+  row-gap: 4.8rem;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(min-content, max-content);
   width: 100%;
@@ -21,6 +21,7 @@
   display: flex;
   width: auto;
   transition: all 0.6s;
+  margin-top: 3.2rem;
 }
 
 .project-title-descriptions {
@@ -37,9 +38,29 @@
   transition: all 0.3s;
 }
 
-.project-title-descriptions .title-description:hover,
 .project-title-descriptions .title-description.active {
-  color: #495057;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.project-title-descriptions .title-description.active.blue {
+  background-image: linear-gradient(to right, #1c7ed6, #1864ab);
+}
+
+.project-title-descriptions .title-description.active.green {
+  background-image: linear-gradient(to right, #37b24d, #2b8a3e);
+}
+
+.project-title-descriptions .title-description.blue:hover {
+  color: #999;
+}
+
+.project-title-descriptions .title-description.green:hover {
+  color: #999;
 }
 
 .no-projects {

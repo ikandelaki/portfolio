@@ -23,10 +23,10 @@ class App extends React.Component {
     return (
       <div>
         <Helmet>
-          <meta charSet="utf-8" />
+          <meta charSet='utf-8' />
           <title>&mdash; Portfolio</title>
-          <link rel="canonical" href="http://mysite.com/example" />
-          <meta name="description" content="Personal portfolio" />
+          <link rel='canonical' href='http://mysite.com/example' />
+          <meta name='description' content='Personal portfolio' />
         </Helmet>
         <Header theme={this.state.theme} changeTheme={this.changeTheme} />
         <Hero theme={this.state.theme} />

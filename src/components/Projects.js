@@ -14,21 +14,22 @@ class Projects extends React.Component {
     this.projectGridRef2 = React.createRef();
   }
 
+  componentDidMount() {
+    // Set inline styling height by hand to enable smooth animation between height change
+    this.projectTypesRef.current.style.height = `${this.projectTypesRef.current.clientHeight}px`;
+  }
+
   handleProjectChange(project) {
     this.setState({ activeProject: project });
     if (project === "real-world") {
       this.projectTypesRef.current.style.transform = "translateX(-100%)";
-      this.projectTypesRef.current.style.height =
-        this.projectGridRef2.current.clientHeight;
+      this.projectTypesRef.current.style.height = `${this.projectGridRef2.current.clientHeight}px`;
     }
 
     if (project === "personal") {
       this.projectTypesRef.current.style.transform = "translateX(0)";
-      this.projectTypesRef.current.style.height =
-        this.projectGridRef1.current.clientHeight;
+      this.projectTypesRef.current.style.height = `${this.projectGridRef1.current.clientHeight}px`;
     }
-
-    console.log(this.projectTypesRef.current.offsetHeight);
   }
 
   renderProjects = () => {
@@ -36,7 +37,8 @@ class Projects extends React.Component {
       return (
         <div
           ref={i === 0 ? this.projectGridRef1 : this.projectGridRef2}
-          className="projects-container--grid"
+          className='projects-container--grid'
+          key={i === 0 ? "project-grid-1" : "project-grid-2"}
         >
           {projectType.length ? (
             projectType.map((project, j) => {
@@ -61,14 +63,14 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className={`section-projects ${this.props.theme}`} id="projects">
-        <div className="projects-container">
-          <h2 className="number">02.</h2>
-          <div className="project-title-descriptions">
+      <div className={`section-projects ${this.props.theme}`} id='projects'>
+        <div className='projects-container'>
+          <h2 className='number'>02.</h2>
+          <div className='project-title-descriptions'>
             <h3
               className={`title-description ${
                 this.state.activeProject === "personal" ? "active" : ""
-              }`}
+              } ${this.props.theme}`}
               onClick={() => this.handleProjectChange("personal")}
             >
               PERSONAL PROJECTS
@@ -76,13 +78,13 @@ class Projects extends React.Component {
             <h3
               className={`title-description ${
                 this.state.activeProject === "real-world" ? "active" : ""
-              }`}
+              } ${this.props.theme}`}
               onClick={() => this.handleProjectChange("real-world")}
             >
               REAL-WORLD PROJECTS
             </h3>
           </div>
-          <div ref={this.projectTypesRef} className="project-types-container">
+          <div ref={this.projectTypesRef} className='project-types-container'>
             {this.renderProjects()}
           </div>
         </div>
