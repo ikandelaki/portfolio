@@ -92,14 +92,37 @@
   text-decoration: none;
   color: #888;
   transition: all 0.3s;
+  overflow: hidden;
+}
+
+.portf-link.blue::after,
+.portf-link.green::after {
+  margin-bottom: 3px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  transform: translateX(-100%);
+  transition: all 0.3s;
+}
+
+.portf-link.blue::after {
+  background-color: #1c7ed6;
+}
+
+.portf-link.green::after {
+  background-color: #37b24d;
+}
+
+.portf-link.blue:hover::after,
+.portf-link.green:hover::after {
+  transform: translateX(0);
 }
 
 .portf-link.blue:hover {
-  border-bottom: 1px solid #1c7ed6;
   color: #1c7ed6;
 }
 
 .portf-link.green:hover {
-  border-bottom: 1px solid #37b24d;
   color: #37b24d;
 }
