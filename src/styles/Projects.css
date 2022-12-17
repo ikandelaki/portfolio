@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.projects-container .number {
+  padding: 0 1.2rem;
+}
+
 .projects-container--grid {
   flex-shrink: 0;
   margin-top: 2.4rem;

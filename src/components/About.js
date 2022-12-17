@@ -46,7 +46,7 @@ const About = (props) => {
                 </a>
               </div>
             </div>
-            <div>
+            <div className='about-content-image'>
               <img src='images/skills.png' alt='different web skills' />
             </div>
           </div>
@@ -85,7 +85,7 @@ const About = (props) => {
                 </a>
               </div>
             </div>
-            <div>
+            <div class='about-content-image'>
               <img src='images/react-css.png' alt='built with react css' />
             </div>
           </div>
