@@ -1,18 +1,11 @@
 [
   [
     {
-      "image": "images/cardistry.png",
-      "title": "Cardistry",
-      "description": "This is the first webpage I've ever built and published. It is about the astonishing art of cardistry which I am really fond of. It was built with plain HTML, CSS and JS. I applied some design principles and tried to make it look appealing. I also used JavaScript to make use of sticky navigation, as well as smooth scrolling and responsive menu bar.",
-      "siteLink": "https://cardistry-irakli.netlify.app/",
-      "sourceLink": "https://github.com/ikandelaki/cardistry-project"
-    },
-    {
-      "image": "images/countries.png",
-      "title": "Countries",
-      "description": "I built this project with plain JavaScript. I used the RESTCountries api to fetch data about the countries and then displayed them with DOM manipulation.",
-      "siteLink": "https://countries-irakli.netlify.app/",
-      "sourceLink": "https://github.com/ikandelaki/countries-project"
+      "image": "images/ecommerce.jpg",
+      "title": "Ecommerce",
+      "description": "This is one of my biggest projects. I built this project in React and redux, using GraphQL endpoint as a data source and Figma for designs. Every bit of information comes from this API and every bit of state is being managed by redux. I learned a lot from this project and it got me my first job as a web developer so I am really proud of it.",
+      "siteLink": "https://ecommerce-irakli.netlify.app/",
+      "sourceLink": "https://github.com/ikandelaki/Irakli-Kandelaki-scandiweb"
     },
     {
       "image": "images/insurance.jpg",
@@ -27,6 +20,20 @@
       "description": "The idea of the page is quite simple. This is a movie app that has such functionalities like filtering, bookmarking, slider, and of course, fully responsive design. I am quite happy with how it turned out and had a lot of fun building it",
       "siteLink": "https://movies-irakli.netlify.app/",
       "sourceLink": "https://github.com/ikandelaki/movies"
+    },
+    {
+      "image": "images/countries.png",
+      "title": "Countries",
+      "description": "I built this project with plain JavaScript. I used the RESTCountries api to fetch data about the countries and then displayed them with DOM manipulation.",
+      "siteLink": "https://countries-irakli.netlify.app/",
+      "sourceLink": "https://github.com/ikandelaki/countries-project"
+    },
+    {
+      "image": "images/cardistry.png",
+      "title": "Cardistry",
+      "description": "This is the first webpage I've ever built and published. It is about the astonishing art of cardistry which I am really fond of. It was built with plain HTML, CSS and JS. I applied some design principles and tried to make it look appealing. I also used JavaScript to make use of sticky navigation, as well as smooth scrolling and responsive menu bar.",
+      "siteLink": "https://cardistry-irakli.netlify.app/",
+      "sourceLink": "https://github.com/ikandelaki/cardistry-project"
     }
   ],
   []
