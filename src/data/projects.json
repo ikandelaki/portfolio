@@ -3,7 +3,7 @@
     {
       "image": "images/ecommerce.jpg",
       "title": "Ecommerce",
-      "description": "This is one of my biggest projects. I built this project in React and redux, using GraphQL endpoint as a data source and Figma for designs. Every bit of information comes from this API and every bit of state is being managed by redux. I learned a lot from this project and it got me my first job as a web developer so I am really proud of it.",
+      "description": "This is one of my biggest projects. I've built it in React and redux, using GraphQL endpoint as a data source and Figma for designs. Every bit of information comes from this API and every bit of state is being managed by redux. I learned a lot from this project and it got me my first job as a web developer so I am really proud of it.",
       "siteLink": "https://ecommerce-irakli.netlify.app/",
       "sourceLink": "https://github.com/ikandelaki/Irakli-Kandelaki-scandiweb"
     },
