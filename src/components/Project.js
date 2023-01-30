@@ -38,20 +38,24 @@ class Project extends React.Component {
             <div className="project-links">
               <a
                 href={this.props.details.siteLink}
-                className={`link--live ${this.props.theme}`}
+                className={`link--live ${this.props.theme} ${
+                  !this.props.details.sourceLink ? "no-source" : null
+                }`}
                 target="_blank"
                 rel="noreferrer"
               >
                 See Live
               </a>
-              <a
-                href={this.props.details.sourceLink}
-                className={`link--source ${this.props.theme}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Source code
-              </a>
+              {this.props.details.sourceLink ? (
+                <a
+                  href={this.props.details.sourceLink}
+                  className={`link--source ${this.props.theme}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source code
+                </a>
+              ) : null}
             </div>
           </div>
         </div>

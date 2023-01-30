@@ -37,7 +37,7 @@ class Projects extends React.Component {
       return (
         <div
           ref={i === 0 ? this.projectGridRef1 : this.projectGridRef2}
-          className='projects-container--grid'
+          className="projects-container--grid"
           key={i === 0 ? "project-grid-1" : "project-grid-2"}
         >
           {projectType.length ? (
@@ -63,10 +63,10 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className={`section-projects ${this.props.theme}`} id='projects'>
-        <div className='projects-container'>
-          <h2 className='number'>02.</h2>
-          <div className='project-title-descriptions'>
+      <div className={`section-projects ${this.props.theme}`} id="projects">
+        <div className="projects-container">
+          <h2 className="number">01.</h2>
+          <div className="project-title-descriptions">
             <h3
               className={`title-description ${
                 this.state.activeProject === "personal" ? "active" : ""
@@ -84,7 +84,7 @@ class Projects extends React.Component {
               REAL-WORLD PROJECTS
             </h3>
           </div>
-          <div ref={this.projectTypesRef} className='project-types-container'>
+          <div ref={this.projectTypesRef} className="project-types-container">
             {this.renderProjects()}
           </div>
         </div>

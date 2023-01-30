@@ -1,7 +1,15 @@
 .projects-container {
   max-width: 120rem;
-  margin: 4.8rem auto;
   overflow: hidden;
+  margin: 0 auto;
+}
+
+.section-projects.blue {
+  background-image: linear-gradient(to bottom, #d0ebff, #fff);
+}
+
+.section-projects.green {
+  background-image: linear-gradient(to bottom, #d3f9d8, #fff);
 }
 
 .projects-container .number {

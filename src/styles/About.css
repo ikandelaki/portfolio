@@ -1,9 +1,5 @@
-.about-container.blue {
-  background-image: linear-gradient(to bottom, #d0ebff, #fff);
-}
-
-.about-container.green {
-  background-image: linear-gradient(to bottom, #d3f9d8, #fff);
+.about-container {
+  margin-top: 9.6rem;
 }
 
 .section-about {

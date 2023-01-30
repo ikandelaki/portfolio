@@ -64,6 +64,11 @@
   padding: 0.6rem 1.2rem;
 }
 
+.link--live.no-source {
+  width: 100%;
+  text-align: center;
+}
+
 .link--live.green:link,
 .link--live.green:visited {
   color: #fff;

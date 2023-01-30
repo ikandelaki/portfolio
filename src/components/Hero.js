@@ -36,20 +36,18 @@ const Hero = (props) => {
       <h3>
         Learn more about
         <div>
-          <Link to="about" spy={true} smooth={true} offset={-79} duration={500}>
-            <span className={`about ${props.theme}`}>Me</span>
-          </Link>
-          /
           <Link
             to="projects"
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={-79}
             duration={500}
           >
-            <span className={`about about--projects ${props.theme}`}>
-              Projects
-            </span>
+            <span className={`about ${props.theme}`}>Projects</span>
+          </Link>
+          /
+          <Link to="about" spy={true} smooth={true} offset={-80} duration={500}>
+            <span className={`about about--projects ${props.theme}`}>Me</span>
           </Link>
         </div>
       </h3>

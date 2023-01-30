@@ -36,5 +36,12 @@
       "sourceLink": "https://github.com/ikandelaki/cardistry-project"
     }
   ],
-  []
+  [
+    {
+      "image": "images/laderach.jpg",
+      "title": "Laderach",
+      "description": "Laderach is one of the biggest swiss chocolate producers. I was working on the redesign of this webpage and it was my first real-world project. It was built in Magento 2 CMS and I worked on both - front and backend (frontend-heavy). TailwindCss was used for styling the page and PHP was used as a backend tool. I have got huge experience with both tools as well as AWS, Git, JavaScript, Figma.",
+      "siteLink": "https://laderach.com/"
+    }
+  ]
 ]

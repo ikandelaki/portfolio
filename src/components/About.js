@@ -3,18 +3,18 @@ import "../styles/About.css";
 
 const About = (props) => {
   return (
-    <div className={`about-container ${props.theme}`} id='about'>
-      <div className='section-about'>
+    <div className={`about-container ${props.theme}`} id="about">
+      <div className="section-about">
         <div className={`about-description about--me ${props.theme}`}>
-          <h2 className='number'>
-            01.<span>a</span>
+          <h2 className="number">
+            02.<span>a</span>
           </h2>
-          <div className='flex-container'>
+          <div className="flex-container">
             <div>
-              <h3 className='title-description'>
+              <h3 className="title-description">
                 ABOUT <span>ME</span>
               </h3>
-              <div class='about-me-description'>
+              <div class="about-me-description">
                 <p>
                   I am a self-taught Full Stack web developer from Tbilisi,
                   Georgia. I am proficient at HTML, CSS, JavaScript, React and
@@ -25,7 +25,7 @@ const About = (props) => {
                   third-party APIs like REST and GraphQL.
                 </p>
                 <h4>Work-life</h4>
-                <p class='job-title'>
+                <p class="job-title">
                   06-2022 - Current &rarr; <span>Scandiweb</span>
                 </p>
                 <p>
@@ -37,30 +37,30 @@ const About = (props) => {
                   reviews, communicating with clients.
                 </p>
                 <a
-                  href='https://github.com/ikandelaki/'
-                  target='_blank'
-                  rel='noreferrer'
+                  href="https://github.com/ikandelaki/"
+                  target="_blank"
+                  rel="noreferrer"
                   className={`portf-link ${props.theme}`}
                 >
                   See github profile
                 </a>
               </div>
             </div>
-            <div className='about-content-image'>
-              <img src='images/skills.png' alt='different web skills' />
+            <div className="about-content-image">
+              <img src="images/skills.png" alt="different web skills" />
             </div>
           </div>
         </div>
         <div className={`about-description about--this ${props.theme}`}>
-          <h2 className='number'>
-            01.<span>b</span>
+          <h2 className="number">
+            02.<span>b</span>
           </h2>
-          <div className='flex-container'>
+          <div className="flex-container">
             <div>
-              <h3 className='title-description'>
+              <h3 className="title-description">
                 ABOUT <span>THIS</span>
               </h3>
-              <div class='about-me-description'>
+              <div class="about-me-description">
                 <p>
                   I built this project with React, to test my skills and gain
                   even more practice. I used react-scroll for navigation within
@@ -76,17 +76,17 @@ const About = (props) => {
                   Green.
                 </p>
                 <a
-                  href='https://github.com/ikandelaki/portfolio'
-                  target='_blank'
-                  rel='noreferrer'
+                  href="https://github.com/ikandelaki/portfolio"
+                  target="_blank"
+                  rel="noreferrer"
                   className={`portf-link ${props.theme}`}
                 >
                   See the source code
                 </a>
               </div>
             </div>
-            <div class='about-content-image'>
-              <img src='images/react-css.png' alt='built with react css' />
+            <div class="about-content-image">
+              <img src="images/react-css.png" alt="built with react css" />
             </div>
           </div>
         </div>
